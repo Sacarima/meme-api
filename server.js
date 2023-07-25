@@ -6,11 +6,6 @@ const path = require('path');
 const data = require('./data')
 const PORT = process.env.PORT || 8001;
 
-// const memeData = {
-//     'age': 32,
-//     'birthName': 'Joao Sacarima aleixo',
-//     'birthLocation': 'Angola, Luanda'
-// }
 
 app.use(express.static(path.join(__dirname, 'public')));
 app.get('/api/:name', (req, res) => {
