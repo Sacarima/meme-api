@@ -16,9 +16,10 @@ app.get('/api/:name', (req, res) => {
         res.json(data['unknown']);
     }
     res.json(data);
+    console.log(testing)
 })
 
 
 app.listen(PORT, () => {
     console.log('The server is now live')
-})
+}z

@@ -802,13 +802,14 @@ const data = {
                 "height": 303,
                 "box_count": 2
             },
-             {
+              {
                 "id": "unknown",
                 "name": "unknown",
                 "url": "unknown",
                 "width": 698,
                 "height": 900,
                 "box_count": 2
+            
             }
         ]
     }
