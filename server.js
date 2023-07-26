@@ -22,4 +22,4 @@ app.get('/api/:name', (req, res) => {
 
 app.listen(PORT, () => {
     console.log('The server is now live')
-}z
+})
